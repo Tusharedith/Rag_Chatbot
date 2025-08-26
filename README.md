@@ -14,6 +14,16 @@ https://github.com/user-attachments/assets/a0743db0-a73e-480a-8cce-f23132b85488
 
 ---
 
+## 🚦 Workflow
+Our RAG chatbot follows a two-phase process: Document Ingestion where uploaded files are chunked, embedded, and stored in a vector database, followed by Chat Interaction where user queries are matched against stored embeddings to retrieve relevant context for LLM-powered answer generation.
+
+<img width="1555" height="674" alt="image" src="https://github.com/user-attachments/assets/ba95dd40-7090-41e6-8823-87d0c28cfa81" />
+
+The diagram above illustrates the complete end-to-end flow from document upload to contextual answer delivery.
+
+
+
+
 ## ✨ Features
 
 * RAG pipeline for intelligent responses
